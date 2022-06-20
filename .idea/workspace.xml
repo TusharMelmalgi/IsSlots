@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Pom.xml updates to include main in manifest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calendarr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lamda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lamda.java" afterDir="false" />
     </list>
@@ -72,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655452127190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pom.xml updates to include main in manifest">
+      <created>1655702230799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655702230799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
