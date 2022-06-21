@@ -17,7 +17,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>lamda</mainClass>
+                            <mainClass>Lamda</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
