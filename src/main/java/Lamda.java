@@ -18,11 +18,11 @@ public class Lamda {
         int st_time= sc.nextInt();
         System.out.print("Enter end of timeslot- ");
         int ed_time= sc.nextInt();
-        Calendarr C = new Calendarr();
-        C.CreateCalendar(new Persons("Tushar",time1));
-        C.CreateCalendar(new Persons("Akshay",time2));
-        C.Print();
-        System.out.println("Available:"+C.IsSlot(name1,st_time,ed_time));
+        Calendarr cal = new Calendarr();
+        cal.createCalendar(new Persons("Tushar",time1));
+        cal.createCalendar(new Persons("Akshay",time2));
+        cal.print();
+        System.out.println("Available:"+cal.isSlot(name1,st_time,ed_time));
         }
     }
 

@@ -2,34 +2,41 @@
 import java.util.*;
 
 public class Calendarr {
-    List<Persons> listofpersons = new ArrayList<>();
+    //List<Persons> listOfPersons = new ArrayList<>();
+    HashMap<String,Persons> calendarSchedule = new HashMap<>();
 
-    public void CreateCalendar(Persons person1){
+    public void createCalendar(Persons person1){
 
-        listofpersons.add(person1);
+        //listOfPersons.add(person1);
+        calendarSchedule.put(person1.name,person1);
     }
-    public void Print(){
-        for(Persons l1:listofpersons){
+    public void print(){
+        /*for(Persons l1:listOfPersons){
             System.out.println(l1.name+":"+l1.time.startTime+"-"+l1.time.endTime);
+        }*/
+        for (Map.Entry<String, Persons> entry : calendarSchedule.entrySet()){
+            System.out.println(entry.getKey()+":"+entry.getValue().time.startTime+"-"+entry.getValue().time.endTime);
+
         }
     }
 
 
-    boolean IsSlot(String name1,Integer a,Integer b){
-        Persons required_p = null;  //a and b are start and end time for new appointment
-        for(Persons l:listofpersons)
+    boolean isSlot(String name1,Integer a,Integer b){
+        Persons requiredPerson = null;  //a and b are start and end time for new appointment
+        /*for(Persons l:listOfPersons)
             if(l.name.equalsIgnoreCase(name1)){
-                required_p = l;
+                requiredPerson = l;
                 break;
-            }
-        if (required_p==null) {
+            }*/
+        requiredPerson = calendarSchedule.get(name1);
+        if (requiredPerson==null) {
             System.out.println("No such user");
             return false;
         }
-        int n = required_p.time.startTime.size();
+        int n = requiredPerson.time.startTime.size();
         for (int i = 0;i<n;i++) {
-            int starttime = required_p.time.startTime.get(i);
-            int endtime = required_p.time.endTime.get(i);
+            int starttime = requiredPerson.time.startTime.get(i);
+            int endtime = requiredPerson.time.endTime.get(i);
             if ( starttime< a && a < endtime || starttime < b && b < endtime)
                 return false;
             else if (a == starttime || b == endtime)
