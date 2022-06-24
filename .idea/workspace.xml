@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Modularised for better Readability">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/DataStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Interface/BackwardString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Interface/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/MaxVariablesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/PlayingCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/StringConcatenate.java" afterDir="false" />
+    <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Exercise questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/DataStructure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655812450106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modularised for better Readability">
+      <created>1655980493620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655980493620</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pom.xml updates to include main in manifest" />
     <MESSAGE value="Modularised for better Readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modularised for better Readability" />
+    <MESSAGE value="Exercise questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise questions" />
   </component>
 </project>

@@ -40,7 +40,7 @@ public class DataStructure {
     private class EvenIterator implements DataStructureIterator {
 
         // Start stepping through the array from the beginning
-        private int nextIndex = 1;
+        private int nextIndex = 0;
 
         public boolean hasNext() {
 
@@ -65,6 +65,10 @@ public class DataStructure {
         System.out.println();
 
     }
+    public void print(java.util.function.Function<Integer,Boolean> iterator){
+       // iterator.apply()
+
+    }
 
 
     public static void main(String s[]) {
@@ -75,6 +79,20 @@ public class DataStructure {
         ds.printEven();
         //ds.print(iterator);
        // DataStructure.annon a = ds.new annon();
+        ds.print(new DataStructureIterator() {
+            int index = 1;
+            @Override
+            public boolean hasNext() {
+
+                return false;
+            }
+
+            @Override
+            public Integer next() {
+                index +=2;
+                return null;
+            }
+        });
 
     }
 }
