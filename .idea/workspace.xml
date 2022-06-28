@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Creating test case 2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/IntegerComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IntegerComparator.java" afterDir="false" />
+    <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Modified IntegerComparator to pass testcase2">
+      <change beforePath="$PROJECT_DIR$/src/test/java/IntegerComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegerComparatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegerComparatorTest.compareTest_number1EqualsNumber2">
+  <component name="RunManager" selected="JUnit.IntegerComparatorTest.compareTest_number1GreaterThanNumber2">
     <configuration name="lamda" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lamda" />
       <module name="IsSlots" />
@@ -65,16 +65,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalendarTest" />
       <option name="METHOD_NAME" value="isSlotTesst_timeOverlapsTwoSlots" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalendarTest.isSlotTest_timeExtendsBetweenTwoSlots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IsSlots" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
-      <option name="METHOD_NAME" value="isSlotTest_timeExtendsBetweenTwoSlots" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,6 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegerComparatorTest.compareTest_number1GreaterThanNumber2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IsSlots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerComparatorTest" />
+      <option name="METHOD_NAME" value="compareTest_number1GreaterThanNumber2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerComparatorTest.compareTest_number1LessThanNumber2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IsSlots" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegerComparatorTest.compareTest_number1GreaterThanNumber2" />
         <item itemvalue="JUnit.IntegerComparatorTest.compareTest_number1EqualsNumber2" />
         <item itemvalue="JUnit.IntegerComparatorTest.compareTest_number1LessThanNumber2" />
         <item itemvalue="JUnit.CalendarTest.isSlotTest_timeSlotAvailable" />
         <item itemvalue="JUnit.CalendarTest.isSlotTesst_timeOverlapsTwoSlots" />
-        <item itemvalue="JUnit.CalendarTest.isSlotTest_timeExtendsBetweenTwoSlots" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656400401324</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modified IntegerComparator to pass testcase2">
+      <created>1656400531436</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656400531436</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +239,7 @@
     <MESSAGE value="Implementing Singleton Class" />
     <MESSAGE value="Unit testing for Calendar Class" />
     <MESSAGE value="Creating test case 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating test case 2" />
+    <MESSAGE value="Modified IntegerComparator to pass testcase2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified IntegerComparator to pass testcase2" />
   </component>
 </project>
