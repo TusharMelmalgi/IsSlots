@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Creating Integer Comparison using TTD case1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IntegerComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegerComparatorTest.java" afterDir="false" />
+    <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Creating test case 2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/IntegerComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IntegerComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656398631808</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creating Integer Comparison using TTD case1">
+      <created>1656400401324</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656400401324</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +231,7 @@
     <MESSAGE value="Exercise questions" />
     <MESSAGE value="Implementing Singleton Class" />
     <MESSAGE value="Unit testing for Calendar Class" />
-    <MESSAGE value="Creating Integer Comparison using TTD case1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Integer Comparison using TTD case1" />
+    <MESSAGE value="Creating test case 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating test case 2" />
   </component>
 </project>
