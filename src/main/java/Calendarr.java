@@ -19,6 +19,10 @@ public class Calendarr {
 
         }
     }
+    /*boolean isPerson(Persons p1){
+
+
+    }*/
 
 
     boolean isSlot(String name1,Integer a,Integer b){
@@ -46,3 +50,6 @@ public class Calendarr {
         
     }
 }
+
+
+

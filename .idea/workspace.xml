@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c72d90-0975-445c-bcac-5a72489617de" name="Changes" comment="Implementing Singleton Class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntegerComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalendarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntegerComparatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calendarr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calendarr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,72 +51,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Singleton">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.MainApp" />
-      <module name="IsSlots" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxVariablesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.MaxVariablesDemo" />
-      <module name="IsSlots" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Singleton" />
-      <module name="IsSlots" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringConcatenate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.StringConcatenate" />
-      <module name="IsSlots" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Interface.Sum" />
-      <module name="IsSlots" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IntegerComparatorTest.compareTest_number1LessThanNumber2">
     <configuration name="lamda" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lamda" />
       <module name="IsSlots" />
@@ -122,13 +59,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalendarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IsSlots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarTest.isSlotTesst_timeOverlapsTwoSlots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IsSlots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+      <option name="METHOD_NAME" value="isSlotTesst_timeOverlapsTwoSlots" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarTest.isSlotTest_timeExtendsBetweenTwoSlots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IsSlots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+      <option name="METHOD_NAME" value="isSlotTest_timeExtendsBetweenTwoSlots" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarTest.isSlotTest_timeSlotAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IsSlots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalendarTest" />
+      <option name="METHOD_NAME" value="isSlotTest_timeSlotAvailable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerComparatorTest.compareTest_number1LessThanNumber2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IsSlots" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerComparatorTest" />
+      <option name="METHOD_NAME" value="compareTest_number1LessThanNumber2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.StringConcatenate" />
-        <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.MaxVariablesDemo" />
-        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.IntegerComparatorTest.compareTest_number1LessThanNumber2" />
+        <item itemvalue="JUnit.CalendarTest.isSlotTest_timeSlotAvailable" />
+        <item itemvalue="JUnit.CalendarTest.isSlotTesst_timeOverlapsTwoSlots" />
+        <item itemvalue="JUnit.CalendarTest.isSlotTest_timeExtendsBetweenTwoSlots" />
+        <item itemvalue="JUnit.CalendarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656071055991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementing Singleton Class">
+      <created>1656317631101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656317631101</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
