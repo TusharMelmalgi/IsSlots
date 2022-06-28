@@ -14,5 +14,12 @@ public class IntegerComparatorTest {
         int resultOfCompare = compares.checkNum(number1,number2);
         Assertions.assertEquals(-1,resultOfCompare);
     }
-
+    @Test
+    public void compareTest_number1EqualsNumber2(){
+        int number1 = 5;
+        int number2 = 5;
+        IntegerComparator compares = new IntegerComparator();
+        int resultOfCompare = compares.checkNum(number1,number2);
+        Assertions.assertEquals(0,resultOfCompare);
+    }
 }
