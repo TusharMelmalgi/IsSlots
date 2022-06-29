@@ -24,19 +24,19 @@ time independent of other slots -return true
         Assertions.assertFalse(slotAvailable);
     }
     @Test
-    public void isSlotTest_timeExtendsBetweenTwoSlots(){
+    public void isSlotTest_timeOverlapsSlots(){
         Timing time1 = new Timing(Arrays.asList(9,12,15),Arrays.asList(11,13,16));
         Calendarr cal = new Calendarr();
         cal.createCalendar(new Persons("Tushar",time1));
-        int startTime = 10;
-        int endTime = 12;
+        int startTime = 15;
+        int endTime = 16;
         String personNameInCalendar = "Tushar";
         boolean slotAvailable = cal.isSlot(personNameInCalendar,startTime,endTime);
         Assertions.assertFalse(slotAvailable);
     }
 
-    @Test
-    public void isSlotTest_timeOverlapsTwoSlots(){
+    /*@Test
+    public void isSlotTest_timeCompletelyOverlapsSlot(){
         Timing time1 = new Timing(Arrays.asList(9,12,15),Arrays.asList(11,13,16));
         Calendarr cal = new Calendarr();
         cal.createCalendar(new Persons("Tushar",time1));
@@ -45,7 +45,7 @@ time independent of other slots -return true
         String personNameInCalendar = "Tushar";
         boolean slotAvailable = cal.isSlot(personNameInCalendar,startTime,endTime);
         Assertions.assertFalse(slotAvailable);
-    }
+    }*/
     @Test
     public void isSlotTest_timeSlotAvailable(){
         Timing time1 = new Timing(Arrays.asList(9,12,15),Arrays.asList(11,13,16));

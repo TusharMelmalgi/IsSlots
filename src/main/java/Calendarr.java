@@ -41,10 +41,10 @@ public class Calendarr {
         for (int i = 0;i<n;i++) {
             int starttime = requiredPerson.time.startTime.get(i);
             int endtime = requiredPerson.time.endTime.get(i);
-            if ( starttime< a && a < endtime || starttime < b && b < endtime)
+            if ( starttime<= a && a < endtime || starttime < b && b <= endtime)
                 return false;
-            else if (a == starttime || b == endtime)
-                return false;
+            /*else if (a == starttime || b == endtime)
+                return false;*/
         }
         return true;
         
